@@ -1,0 +1,18 @@
+# .cursor/rules/governance.mdc
+Description: Gobernanza de ediciones y seguridad en el proyecto
+Globs: **/*
+
+## Modo de trabajo (Plan → Act)
+- Primero **PLAN**: antes de editar archivos, escribe un plan con pasos y archivos afectados.
+
+## Límites de edición
+- **No modifiques código existente**, crea nuevo a su alrededor sin afectar la lógica actual, si debes modificarla explica lo que debes hacer y espera confirmación para hacerlo
+
+
+## Terminal / Servidor de desarrollo
+- Antes de correr `npm run dev` o equivalentes, **verifica Node 22**:
+- Usa nvm use 22 para usar la versión correcta de node
+
+## Estilo y seguridad
+- Respeta la arquitectura actual y convenciones del repo.
+- Si dudas, **pregunta** antes de tocar archivos fuera del alcance solicitado.

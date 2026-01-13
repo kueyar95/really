@@ -1,0 +1,30 @@
+{
+    "id": "INSERT_ID",
+    "company_id": "77e47724-aa03-4e07-8a04-704525c29517",
+    "type": "change_stage",
+    "name": "Cambiar a Etapa Agendamiento",
+    "description": "Cambia al cliente a la etapa de agendamiento",
+    "activation_description": "Ejecutar cuando el cliente este interesado en alguno de los servicios. Ejecutar inmediatamente si se observa el interes claro.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "stageId": {
+          "type": "string",
+          "description": "Value: 002b1240-0f23-4787-896b-6b2451d2a55c",
+          "const": "002b1240-0f23-4787-896b-6b2451d2a55c",
+          "enum": ["002b1240-0f23-4787-896b-6b2451d2a55c"]
+        }
+      },
+      "required": ["stageId"]
+    },
+    "const_data": {
+      "type": "change_stage",
+      "stageId": "002b1240-0f23-4787-896b-6b2451d2a55c",
+      "name": "Cambiar a Etapa Demo",
+      "description": "Cambia al cliente a la etapa de demostración",
+      "agregarWebhook": false
+    },
+    "created_at": "NOW()",
+    "updated_at": "NOW()"
+  }
+
